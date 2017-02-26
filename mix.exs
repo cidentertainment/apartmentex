@@ -38,8 +38,8 @@ defmodule Apartmentex.Mixfile do
   defp deps do
     [
       {:ecto, "~> 2.0"},
-      {:mariaex, "~> 0.7.7", optional: true},
-      {:postgrex, ">= 0.11.0", optional: true}
+      {:mariaex, "~> 0.7", optional: true},
+      {:postgrex, ">= 0.11", optional: true}
     ]
   end
 
